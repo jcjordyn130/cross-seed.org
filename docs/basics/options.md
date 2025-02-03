@@ -397,8 +397,8 @@ your `dataDirs`.
 | Client           | Linux                                                      | Windows                                                   | Mac                                                   |
 | ---------------- | ---------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
 | **rTorrent**     | your session directory as configured in .rtorrent.rc       | your session directory as configured in .rtorrent.rc      | your session directory as configured in .rtorrent.rc  |
-| **Deluge**       | `/home/<username>/.config/deluge/state`                    | %APPDATA%\deluge\state                                    | current version of Deluge not officially supported    |
-| **Transmission** | `/home/<username>/.config/transmission/torrents`           | Unknown (please submit a [PR][pr]!)                       | Unknown (please submit a [PR][pr]!)                   |
+| **Deluge**       | `/home/<username>/.config/deluge/state`                    | `%APPDATA%\deluge\state`                                    | current version of Deluge not officially supported    |
+| **Transmission** | `/home/<username>/.config/transmission/torrents`           | `%LOCALAPPDATA%/transmission/torrents`                       | Unknown (please submit a [PR][pr]!)                   |
 | **qBittorrent**  | `/home/<username>/.local/share/data/qBittorrent/BT_backup` | `C:\Users\<username>\AppData\Local\qBittorrent\BT_backup` | `~/Library/Application Support/qBittorrent/BT_backup` |
 
 #### `torrentDir` Examples (CLI)
